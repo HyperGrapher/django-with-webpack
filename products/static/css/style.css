@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(9, 48, 58);
+}
+
+#counter {
+    color: rgb(255, 247, 250);
+    font-size: 28px;
+}

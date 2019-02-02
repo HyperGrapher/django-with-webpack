@@ -81,10 +81,21 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./products/static/js/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./products/static/css/style.css":
+/*!***************************************!*\
+  !*** ./products/static/css/style.css ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./products/static/css/style.css?");
+
+/***/ }),
 
 /***/ "./products/static/js/index.js":
 /*!*************************************!*\
@@ -93,7 +104,18 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const name = document.getElementById('name')\nconst counter = document.getElementById('counter')\n\nlet count = 0\n\nname.innerText = 'Burak norma'\n\nsetInterval(() => counter.innerText = ++count, 1000)\n\n\n//# sourceURL=webpack:///./products/static/js/index.js?");
+eval("const name = document.getElementById('name')\nconst counter = document.getElementById('counter')\n\nlet count = 0\n\nname.innerText = 'Burak hello'\n\nsetInterval(() => counter.innerText = ++count, 1000)\n\n\n//# sourceURL=webpack:///./products/static/js/index.js?");
+
+/***/ }),
+
+/***/ 0:
+/*!***************************************************************************!*\
+  !*** multi ./products/static/js/index.js ./products/static/css/style.css ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./products/static/js/index.js */\"./products/static/js/index.js\");\nmodule.exports = __webpack_require__(/*! ./products/static/css/style.css */\"./products/static/css/style.css\");\n\n\n//# sourceURL=webpack:///multi_./products/static/js/index.js_./products/static/css/style.css?");
 
 /***/ })
 
